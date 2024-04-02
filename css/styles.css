@@ -411,6 +411,10 @@ img {
     overflow: hidden;
 }
 
+.our-portfolio-project-photo:hover {
+    transform: translateY(0%);
+}
+
 .our-portfolio-project-paragraph {
     position: absolute;
     top: 0;
@@ -472,7 +476,7 @@ img {
 
 }
 
-.footer-logo {
+.container-footer-logo {
     margin-right: 120px;
 }
 
@@ -500,7 +504,6 @@ img {
 }
 
 .footer-text {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -527,6 +530,7 @@ img {
 .footer-social-media-page {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .footer-social-media-page-link {
