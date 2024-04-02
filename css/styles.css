@@ -449,6 +449,10 @@ img {
     color: #434455;
 }
 
+.our-portfolio-project:hover .our-portfolio-project-paragraph {
+    transform: translateY(0%);
+}
+
 /* Section 4 */
 
 /* Footer */
