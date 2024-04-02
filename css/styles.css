@@ -373,7 +373,6 @@ img {
     padding-bottom: 120px;
 }
 
-
 .our-portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -404,7 +403,6 @@ img {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-        transform: translateY(0%);
 }
 
 .our-portfolio-project-photo {
@@ -428,28 +426,11 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio-project-paragraph:hover {
-    transform: translateY(0%);
-}
-
-.our-portfolio-project-paragraph:focus {
-    transform: translateY(0%);
-}
-
 .our-portfolio-project-title-description {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
-.our-portfolio-project-title-description:hover {
-    transform: translateY(0%);
-}
-
-.our-portfolio-project-title-description:focus {
-    transform: translateY(0%);
-}
-
 
 .our-portfolio-project-title {
     font-weight: 500;
@@ -466,18 +447,6 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.our-portfolio-project-description:hover {
-transform: translateY(0%);
-}
-
-.our-portfolio-project-description:hover {
-    transform: translateY(0%);
-}
-
-.our-portfolio-project-description:focus {
-    transform: translateY(0%);
 }
 
 /* Section 4 */
